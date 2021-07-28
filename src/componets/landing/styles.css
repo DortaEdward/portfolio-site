@@ -31,3 +31,35 @@
   width:35vw;
 }
 
+@media (max-width: 375px){
+  .landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:7.3rem 6rem;
+  }
+  .landing-content{
+    color:white;
+    width:325px;
+  }
+  .landing-image{
+    width:80vw;
+  }
+
+  .text-one{
+    font-size: 20px;
+  }
+  
+  .text-two{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .text-three{
+    font-size: 24px;
+  }
+  .text-one,.text-two,.text-three{
+    text-align: center;
+  }
+}

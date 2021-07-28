@@ -3,13 +3,21 @@
   padding:1rem 4rem;
   color:white;
   background-color: black;
-  display: flex;
-  justify-content: space-between;
   position: fixed;
   top: 0%;
-  width: 100%;
-  
+  width: 100%; 
 }
+
+.desktop{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile{
+  display: none;
+}
+
+
 .nav-links{
   margin:0;
   padding:0;
@@ -40,3 +48,36 @@ a{
   font-style: italic;
   font-weight: bold;
 }
+
+/* @media (max-width: 375px){
+  .navbar{
+    height:50px;
+    width: 100%; 
+  }
+  .desktop{
+    display:none;
+  }
+  .mobile{
+    display: flex ;
+  }
+
+  .ham-menu-icon{
+    width:50px;
+    height:50px;
+    stroke: currentColor;
+    stroke-width:2;
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    position: absolute;
+    left:5%;
+    cursor: pointer;
+  }
+
+  .ham-links{
+    display: none;
+  }
+}
+ */
+
+
