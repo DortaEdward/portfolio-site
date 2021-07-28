@@ -18,9 +18,6 @@ export default function work({ setSelectedWork }) {
             <img className='site-card-img' src = {site.image} alt='site-screenshot'/>
             <h3>{site.siteName}</h3>
             <h4>{site.technologiesUsed}</h4>
-            <div className='site-card-links'>
-              <p>Link | Github</p>
-            </div>
           </li>
         )}
       </ul>
