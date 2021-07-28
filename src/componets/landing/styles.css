@@ -1,0 +1,33 @@
+.landing{
+  margin:14rem 8rem 10rem 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.landing-content{
+  color:white;
+  width:1000px;
+}
+
+.text-one{
+  font-size: 28px;
+}
+
+.text-two{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.text-three{
+  font-size: 32px;
+}
+
+.text-one,.text-two,.text-three{
+  margin:1rem auto;
+}
+
+
+.landing-image{
+  width:35vw;
+}
+
