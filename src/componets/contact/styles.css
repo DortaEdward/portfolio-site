@@ -81,3 +81,22 @@ svg{
   font-size: 18px;
   font-weight: bold;
 }
+
+@media (max-width: 768px){
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .email-form{
+    width: 320px;
+  }
+  .contact-info{
+    margin-top: 3rem;
+    width:320px;
+  }
+  .contact-info p {
+    font-size: 15px;
+    word-break: break-all;
+  }
+
+}

@@ -34,13 +34,12 @@
   width: 100%;
 }
 
-@media (max-width: 375px){
+
+@media (max-width: 768px){
   .work{
     padding:1rem;
   }
-  .list-of-work{
-    margin-right:1rem;
-  }
+
   .site-card{
     width:340px;
     text-align: center;

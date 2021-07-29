@@ -1,5 +1,5 @@
 .landing{
-  margin:14rem 8rem 10rem 8rem;
+  margin:10rem 7rem 10rem 7rem;
   display: flex;
   align-items: center;
 }
@@ -29,6 +29,72 @@
 
 .landing-image{
   width:35vw;
+}
+
+@media (max-width: 768px) {
+  .landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:7.3rem 6rem;
+  }
+  .landing-content{
+    color:white;
+    width:425px;
+  }
+  .landing-image{
+    width:40vw;
+  }
+
+  .text-one{
+    font-size: 18px;
+  }
+  
+  .text-two{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .text-three{
+    font-size: 22px;
+  }
+  .text-one,.text-two,.text-three{
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px){
+  .landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:7.3rem 6rem;
+  }
+  .landing-content{
+    color:white;
+    width:325px;
+  }
+  .landing-image{
+    width:50vw;
+  }
+
+  .text-one{
+    font-size: 18px;
+  }
+  
+  .text-two{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .text-three{
+    font-size: 22px;
+  }
+  .text-one,.text-two,.text-three{
+    text-align: center;
+  }
 }
 
 @media (max-width: 375px){

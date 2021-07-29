@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+
+  .ham-menu-icon{
+    width:50px;
+    height:50px;
+    stroke: currentColor;
+    stroke-width:2;
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    position: absolute;
+    cursor: pointer;
+    right:8%;
+  }
+
+  .ham-links-container{
+    padding: 0.4rem 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    right:0;
+    justify-content: center;
+    align-items: center;
+    border-top:2px solid white;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .ham-links{
+    padding: 0;
+    display: flex;
+    margin:0;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+  }
+
+  .ham-link{
+    margin:0.2rem 0;
+  }
+
+  .ham-link a {
+    font-size: 18px;
+  }
+
+  .resume{
+    text-align: center;
+    margin:0.2rem 0;
+    font-size: 18px;
+  }
+  .ham-link, .resume{
+    margin:0.5rem auto;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+  }
+
+  .ham-link a, .resume{
+    font-weight: 500;
+  }
+  
+
+}

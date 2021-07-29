@@ -1,11 +1,8 @@
 import './styles.css';
 import { Link } from 'react-scroll';
-import { useState } from 'react';
 import Hamburger from '../hamburger';
 
 export default function Navbar(){
-
-  const [showHamburger, setShowHamburger] = useState(false);
 
   return(
     <div className='navbar'>
@@ -17,9 +14,9 @@ export default function Navbar(){
         </ul>
         <a href='Edward_Dorta_Resume.pdf' className='resume' download>Download Resume</a>
       </div>
-      {/* <div className='mobile'>
+      <div className='mobile'>
         <Hamburger />
-      </div> */}
+      </div>
     </div>
   )
 }

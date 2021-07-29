@@ -5,7 +5,6 @@ export default function work({ setSelectedWork }) {
 
 
   const openModal = (site) => {
-    console.log(site);
     setSelectedWork(site);
   }
 

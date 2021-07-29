@@ -1,21 +1,8 @@
 import './styles.css';
-import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
 export default function Contact () {
-  const [email, setEmail] = useState({
-    name:'',
-    email:'',
-    subject:'',
-    message:''
-  });
 
-  const updateEmail = (e) => {
-    setEmail({
-      ...email,
-      [e.target.name]: e.target.value
-    });
-  };
 
   const sendEmail = (e) => {
     e.preventDefault();

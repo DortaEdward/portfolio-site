@@ -5,12 +5,10 @@ import Landing from './componets/landing';
 import Work from './componets/work';
 import Contact from './componets/contact';
 import Modal from './componets/modal';
-import Hamburger from './componets/hamburger';
 
 function App() {
 
   const[selectedWork,setSelectedWork] = useState(null);
-  const [mobile,setMobile] = useState(false);
 
   return (
     <div className="App">
